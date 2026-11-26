@@ -24,29 +24,46 @@ buscar(), validación |
 
 # Resultados
 
-<img width="707" height="286" alt="Image" src="https://github.com/user-attachments/assets/41b3ff29-a632-4ef0-9fdb-d51ac509edc1" />
+`Cómo se ve la página cuando entramos a ella y no tenemos todavía ningún producto guardado en la DB`
 
-`Circulo.php`
+<img width="1347" height="393" alt="image" src="https://github.com/user-attachments/assets/213e950e-a121-4577-aacb-429f947b931f" />
 
-<img width="670" height="144" alt="Image" src="https://github.com/user-attachments/assets/029e2b17-c456-4d79-ab54-5f5c8f9ebb65" />
+`La tabla "Producto" en donde se van a guardar los datos`
 
-`Class_A.php`
+<img width="975" height="237" alt="image" src="https://github.com/user-attachments/assets/c45672af-89d8-4b48-b638-cbeca561d802" />
 
- <img width="195" height="131" alt="Image" src="https://github.com/user-attachments/assets/378026b9-a8e8-47e4-900e-5a7c6a5808de" />
 
-`Coche.php` 
+`Insertamos los datos y se nos devuelve un mensaje diciendo "Éxito, Producto creado"`
 
- <img width="1321" height="132" alt="Image" src="https://github.com/user-attachments/assets/4d4717c7-fb41-444d-b46d-4334b87212db" />
+<img width="975" height="501" alt="image" src="https://github.com/user-attachments/assets/0499321b-cac4-4900-bec8-d349f530c484" />
 
- `Error_Coche.php`
 
-<img width="467" height="198" alt="Image" src="https://github.com/user-attachments/assets/1ed2efbe-f03c-4a4c-9658-4ffc63c33aaf" />
+`Podemos usar el botón "Editar" para cambiar los datos si necesario` 
 
-`Estudiante.php` 
+<img width="975" height="283" alt="image" src="https://github.com/user-attachments/assets/51445867-6a1b-425c-a79a-d410081ea251" />
 
-## Lenguajes Utilizados
+
+ `Mensaje "Éxito, Producto actualizado" al editar el producto`
+
+<img width="910" height="560" alt="image" src="https://github.com/user-attachments/assets/c4af04d0-1fe6-4eda-98e9-cf5b63902a29" />
+
+
+`Como se ve cuando hay múltiples productos. El ID va en orden descendente gracias al auto incremento implementado` 
+
+<img width="975" height="184" alt="image" src="https://github.com/user-attachments/assets/15be0f2a-88f3-4653-b162-bb022425edd0" />
+
+
+`En la barra de búsqueda se pueden buscar los productos mediante su Código o nombre de este` 
+
+<img width="653" height="216" alt="image" src="https://github.com/user-attachments/assets/34a37253-8015-417d-9154-2be4ffa53343" />
+
+
+## Tecnologías Utilizadas
  
-- **PHP** 
+- **PHP**
+- **HTML**
+- **JSON**
+- ** SweetAlert2** 
 
 ##  Cómo ejecutar el proyecto
  
@@ -55,5 +72,6 @@ buscar(), validación |
    git clone https://github.com/dylan-pitti/Practicas-POO.git
 ```
 2. Colocarlo dentro del directorio de tu servidor local (www si se usa WAMP o LAMP).
-3. Iniciar Wamp o Lamp después conectarse al servidor local mediante hhtp://127.1.1.1
-4. Elegir el archivo a probar dentro de la carpeta asignada (el index.php)
+3.  Crear la DB "Producto" en PHPmyAdmin con los 5 campos que pide el proyecto
+4. Iniciar Wamp o Lamp y después conectarse al servidor local mediante hhtp://127.1.1.1/Crud_Productos
+
