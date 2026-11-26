@@ -69,7 +69,7 @@ buscar(), validación |
  
 1. Clonar el repositorio:
 ```bash
-   git clone https://github.com/dylan-pitti/Practicas-POO.git
+   https://github.com/dylan-pitti/CRUD---API-Fetch-y-MySQL.git
 ```
 2. Colocarlo dentro del directorio de tu servidor local (www si se usa WAMP o LAMP).
 3.  Crear la DB "Producto" en PHPmyAdmin con los 5 campos que pide el proyecto
